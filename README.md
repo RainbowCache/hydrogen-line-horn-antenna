@@ -8,6 +8,25 @@ This project contains design files and simulation tools for a horn antenna tuned
 
 ## Getting Started
 
+I ended up creating an Ubuntu virtual machine and building / installing openEMS 
+into /opt/openEMS. The openEMS install process also includes creating
+a /opt/openEMS/venv directory which is the virtual environment I use for this python 
+project. I had to install ipykernel in the virtual environment as well:
+
+```bash
+pip install ipykernel
+```
+
+Back in Visual Studio Code, in the project directory, I just ran the following to create 
+a symbolic link to the system's OpenEMS virtual environment directory:
+
+```bash
+ln -s /opt/openEMS/venv .venv
+```
+
+In Visual Studio, I created a python environment as usual under .venv. It detects that 
+the directory is there and uses the openEMS virtual environment instead.
+
 ### Prerequisites
 
 1. **Python 3.8+** with pip
