@@ -1,0 +1,14 @@
+# Core dependencies for OpenEMS horn antenna design
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+
+# Jupyter notebook
+jupyter>=1.0.0
+ipython>=7.30.0
+
+# OpenEMS Python interface
+# Note: openEMS itself needs to be installed separately
+# See: https://docs.openems.de/install.html
+# The Python interface can be installed from:
+# https://github.com/thliebig/openEMS-Project
