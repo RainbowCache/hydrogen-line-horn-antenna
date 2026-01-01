@@ -14,6 +14,7 @@ a /opt/openEMS/venv directory which is the virtual environment I use for this py
 project. I had to install ipykernel in the virtual environment as well:
 
 ```bash
+pip install scipy
 pip install ipykernel
 ```
 
