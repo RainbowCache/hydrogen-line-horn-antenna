@@ -16,6 +16,8 @@ project. I had to install ipykernel in the virtual environment as well:
 ```bash
 pip install scipy
 pip install ipykernel
+pip install plotly
+pip install nbformat
 ```
 
 Back in Visual Studio Code, in the project directory, I just ran the following to create 
