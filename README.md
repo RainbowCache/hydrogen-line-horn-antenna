@@ -18,6 +18,7 @@ pip install scipy
 pip install ipykernel
 pip install plotly
 pip install nbformat
+pip install ezdxf
 ```
 
 Back in Visual Studio Code, in the project directory, I just ran the following to create 
