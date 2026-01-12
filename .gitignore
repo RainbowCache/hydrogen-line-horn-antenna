@@ -1,6 +1,9 @@
 # Output Directory
 horn_antenna_sim
 
+# Output DXF File
+horn_profile.dxf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
